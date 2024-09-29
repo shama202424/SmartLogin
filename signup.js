@@ -20,7 +20,7 @@ function saveData()
     var data=
     {
         userName : userNameInput.value,
-        email1 : userEmailInput.value,
+        email : userEmailInput.value,
         password : userPasswordInput.value,
     }
     if (checkInputsEmpty() == true) {

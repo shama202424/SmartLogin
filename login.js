@@ -19,7 +19,7 @@ function logIn() {
         if(checkEmailPassword() == true)
         {
         
-            window.location.href='home.html';
+            window.location.href='./home.html';
         }
         else
         {
@@ -31,7 +31,7 @@ function logIn() {
 }
 function checkEmailPassword() {
     for (let index = 0; index < userDataArr.length; index++) {
-        if (userDataArr[index].email == userEmailInput.value && userDataArr[index].passwrod == userPasswordInput.value) {
+        if (userDataArr[index].email == userEmailInput.value && userDataArr[index].password == userPasswordInput.value) {
             localStorage.setItem('userName',userDataArr[index].userName)
             return true;
         }
