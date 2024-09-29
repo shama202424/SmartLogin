@@ -1,0 +1,49 @@
+body
+{
+    background-color: #24353f;
+}
+.group
+{
+    border: 1px solid black;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1
+{
+    color: #17a2b8;
+    font-size: 2.5rem;
+}
+input
+{
+    background-color: transparent !important;
+    color: white!important;
+
+}
+a
+{
+    text-decoration: none;
+  
+}
+a:hover
+{
+    text-decoration: line-through;
+    
+   
+
+}
+.home-content p 
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--darkBlueShadow);
+}
+.boxShadow
+{
+    box-shadow:10px 10px 30px 8px rgba(0,0,0,0.8) ;
+}
+@media  screen and (max-width:991px){
+    h1
+    {
+        font-size: 25px;
+    }
+}
